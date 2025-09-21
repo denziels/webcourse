@@ -7,18 +7,17 @@
 }
 
 body {
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  background: #0d0d0d;
   color: #fff;
   line-height: 1.6;
   min-height: 100vh;
 }
 
-
 .fullpage {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100vh;  
   text-align: center;
 }
 
@@ -30,6 +29,7 @@ body {
 .hero-content p {
   font-size: 1.2rem;
   margin-bottom: 25px;
+  color: #ccc; 
 }
 
 .btn {
@@ -44,73 +44,4 @@ body {
 
 .btn:hover {
   background: #fb8500;
-}
-
-
-.sub-hero {
-  text-align: center;
-  padding: 20px;
-  background: rgba(0,0,0,0.2);
-}
-
-.btn-back {
-  display: inline-block;
-  margin-bottom: 10px;
-  color: #fff;
-  text-decoration: none;
-  background: #ff006e;
-  padding: 8px 15px;
-  border-radius: 20px;
-  font-size: 14px;
-}
-
-.btn-back:hover {
-  background: #d90429;
-}
-
-
-.course-detail {
-  max-width: 900px;
-  margin: auto;
-  padding: 30px;
-  display: grid;
-  gap: 25px;
-}
-
-.card {
-  background: rgba(255,255,255,0.1);
-  padding: 25px;
-  border-radius: 15px;
-  transition: transform 0.3s;
-}
-
-.card:hover {
-  transform: translateY(-6px);
-}
-
-.card h2 {
-  margin-bottom: 12px;
-  color: #ffdd00;
-}
-
-.card ul {
-  list-style: none;
-}
-
-.card ul li {
-  margin: 8px 0;
-}
-
-.card ul li a {
-  text-decoration: none;
-  color: #fff;
-  background: #00b4d8;
-  padding: 6px 12px;
-  border-radius: 8px;
-  transition: 0.3s;
-  font-size: 14px;
-}
-
-.card ul li a:hover {
-  background: #0077b6;
 }
